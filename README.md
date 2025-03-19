@@ -45,7 +45,7 @@ Follow these steps to set up and run the project:
 1. Clone the Repository
 ```bash
 git clone https://github.com/hrisabhy/flask-college-practicals.git
-cd flask_college_practicals
+cd flask-college-practicals
 ```
 
 2. Create and Activate a Virtual Environment
@@ -67,6 +67,8 @@ pip install -r requirements.txt
    python app.py
    ```
    API will be available at: http://127.0.0.1:5001/square?number=5
+
+   You can exit the script with Ctrl+C
 
    Run Practical 10 (Armstrong API)
    ```bash

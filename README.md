@@ -82,7 +82,7 @@ This practical uses Redis as a data store:
 - User data is preloaded into Redis at application startup
 
 ### Redis Server Setup
-To set up the Redis server in slave mode for redundancy (optional):
+To set up the Redis server in slave mode for redundancy:
 ```bash
 redis-server --port 6380 --slaveof 127.0.0.1 6379
 ```
